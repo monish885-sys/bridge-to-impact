@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Registration</h1>
+        <form id="registrationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="10" max="20" required><br><br>
+            
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            
+            <label for="school">School:</label>
+            <input type="text" id="school" name="school" required><br><br>
+            
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" name="mobile" required><br><br>
+            
+            <label for="grade">Grade:</label>
+            <select id="grade" name="grade" required>
+                <option value="6">Grade 6</option>
+                <option value="7">Grade 7</option>
+                <option value="8">Grade 8</option>
+                <option value="9">Grade 9</option>
+                <option value="10">Grade 10</option>
+                <option value="11">Grade 11</option>
+                <option value="12">Grade 12</option>
+            </select><br><br>
+            
+            <label for="board">Board of Education:</label>
+            <select id="board" name="board" required>
+                <option value="CBSE">CBSE</option>
+                <option value="IGCSE">IGCSE</option>
+                <option value="IBDP">IBDP</option>
+            </select><br><br>
+            
+            <label for="favField">Favorite Field of Study:</label>
+            <select id="favField" name="favField" required>
+                <option value="Math">Math</option>
+                <option value="Science">Science</option>
+                <option value="Social Studies">Social Studies</option>
+                <option value="English">English</option>
+                <option value="EVS">EVS</option>
+            </select><br><br>
+            
+            <label for="strugglingField">Struggling Field of Study:</label>
+            <select id="strugglingField" name="strugglingField" required>
+                <option value="Math">Math</option>
+                <option value="Science">Science</option>
+                <option value="Social Studies">Social Studies</option>
+                <option value="English">English</option>
+                <option value="EVS">EVS</option>
+            </select><br><br>
+            
+            <label for="favSubtopic">Favorite Subtopic:</label>
+            <input type="text" id="favSubtopic" name="favSubtopic" required><br><br>
+            
+            <label for="strugglingSubtopic">Struggling Subtopic:</label>
+            <input type="text" id="strugglingSubtopic" name="strugglingSubtopic" required><br><br>
+            
+            <label for="modeOfStudy">Mode of Study:</label>
+            <select id="modeOfStudy" name="modeOfStudy" required>
+                <option value="Online">Online</option>
+                <option value="In-Person">In-Person</option>
+                <option value="Hybrid">Hybrid</option>
+            </select><br><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
